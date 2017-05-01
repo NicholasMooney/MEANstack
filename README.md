@@ -1,3 +1,9 @@
+## When back on Windows
+## need to npm install bower -g
+## need to (locally) npm install --save express jade
+## I intentionally added gitignore, so that node_modules are not versioned.
+
+
 ## Reminder commands
 
 ##on git hub repo as https://github.com/NicholasMooney/MEANstack.git
