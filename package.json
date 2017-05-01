@@ -1,0 +1,23 @@
+{
+  "name": "meanstack",
+  "version": "1.0.0",
+  "description": "##on git hub repo as https://github.com/NicholasMooney/MEANstack.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasMooney/MEANstack.git"
+  },
+  "author": "Nicholas Mooney <nicholas.a.mooney@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasMooney/MEANstack/issues"
+  },
+  "homepage": "https://github.com/NicholasMooney/MEANstack#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  }
+}
