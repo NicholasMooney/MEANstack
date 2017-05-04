@@ -1,3 +1,12 @@
+## when back on MAC
+## need to insert data to mongodb database
+## in console, use 'mongo' to open mongo shell
+## then use MEANstackdb
+## then use db.messages.insert({message: 'Hello Mongo'})
+## show collections to see if it worked
+## refresh app
+
+
 ## When back on Windows
 ## need to npm install bower -g
 ## need to (locally) npm install --save express jade
