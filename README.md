@@ -5,6 +5,7 @@
 ## then use db.messages.insert({message: 'Hello Mongo'})
 ## show collections to see if it worked
 ## refresh app
+## also need to set NODE_ENV=development for local. Anything else will connect to Mongo Atlas instead
 
 
 ## When back on Windows
