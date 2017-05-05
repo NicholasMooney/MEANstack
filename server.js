@@ -56,13 +56,6 @@ db.once('open', function callback(){
 
 });
 
-var messageSchema = mongoose.Schema({message: String});
-var Message = mongoose.model('Message', messageSchema);
-var mongoMessage; //data pulled out of the database
-Message.findOne().exec(function(err, messageDoc){ //findOne will return the very first doc in the collection
-    mongoMessage = messageDoc.message; 
-});
-
 
 //ROUTES
 //when somebody requests /partial/main, /main jade will be constructed.
@@ -74,10 +67,7 @@ Message.findOne().exec(function(err, messageDoc){ //findOne will return the very
 //catch all route. If landing on an unusual page, go back and render index
 app.get('*', function (req, res) {
 
-    res.render('index', {
-        mongoMessage: mongoMessage
-
-    });
+    res.render('index');
 });
 
 
