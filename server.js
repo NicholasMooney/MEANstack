@@ -59,9 +59,9 @@ db.once('open', function callback(){
 
 //ROUTES
 //when somebody requests /partial/main, /main jade will be constructed.
- app.get('/partials/:partialPath', function (req, res) {
+ app.get('/partials/*', function (req, res) {
 
-    res.render('partials/' + req.params.partialPath);
+    res.render('../../public/app/' + req.params[0]);
 });
 
 //catch all route. If landing on an unusual page, go back and render index
