@@ -16,6 +16,6 @@ angular.module('app').factory('mvAuth', function($http, mvIdentity, $q){
         return dfd.promise;
         }
         
-    }
+    };
 
 });
